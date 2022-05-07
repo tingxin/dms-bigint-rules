@@ -5,9 +5,17 @@
 
 目前暂时只支持MYSQL 和SQL Server 数据源
 
-## 使用
+## 安装依赖
+```
 pip3 install -r requirement.txt
+```
+
+## 使用
+```
 python3 cli.py --help
+
+python3 cli.py -s demo_mssql -d tempdb --filename demo.json 
+```
 
 ## 注意
 请先配置settings.py文件中的 DATA_SOURCE,结构说明如下
